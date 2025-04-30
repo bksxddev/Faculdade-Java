@@ -21,9 +21,5 @@ public class Main {
         Submarino submarino1 = new Submarino("Typhoon-class", 1985, "Cinza", false, 175.0f, 400.0f);
         Submarino submarino2 = new Submarino("Alvin", 2020, "Branco", false, 7.0f, 4500.0f);
 
-
-         aviao1.ligar(true);
-         aviao1.ligar(false);
-
     }
 }
