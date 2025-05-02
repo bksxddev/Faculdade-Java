@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CadastrarVeiculos {
     
     
-        public void cadastrar(){
+        public static void cadastrar(){
             Scanner scanner = new Scanner(System.in);
                 
 
@@ -37,7 +37,7 @@ public class CadastrarVeiculos {
                     }
                     
                 // case 2 diz respeito aos atributos dos veiculos aquaticos
-                
+                break;
                 case 2:
                 System.out.println("Escolha o modelo do veiculo aquatico que voce deseja cadastrar: ");
                 System.out.println("1. Barco");
@@ -57,7 +57,7 @@ public class CadastrarVeiculos {
                     }
                     
                 // case 3 diz respeito aos atributos dos veiculos terrestres
-                
+                break;
                 case 3:
                 System.out.println("Escolha o modelo do veiculo terrestre que voce deseja cadastrar: ");
                 System.out.println("1. Moto");

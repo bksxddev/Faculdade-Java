@@ -45,16 +45,16 @@ public class Veiculos {
     //  metodos
     
     public boolean ligar(boolean ligado){
-        if(ligado == false){
-            System.out.println("O veiculo esta ligando!");
+        if(this.ligado == false){
+            System.out.println(" esta ligando!");
             return true;
         }else{
-            System.out.println("O veiculo ja esta ligado!");
+            System.out.println(" ja esta ligado!");
             return false;
         }
     }    
     public boolean desligar(boolean ligado){
-        if(ligado == true){
+        if(this.ligado == true){
             System.out.println("O veiculo esta desligando!");
             return true;
         }else{

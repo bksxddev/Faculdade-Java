@@ -13,7 +13,7 @@ public class Menu {
             System.out.println("Menu de opcoes: ");
             System.out.println("1. Cadastrar novo veiculo");
             System.out.println("2. Listar todos os veiculos");
-            System.out.println("3. Exucatar acao");
+            System.out.println("3. Executar acao");
             int numeroEscolha = scanner.nextInt();
             
             if(numeroEscolha < 1 || numeroEscolha >3){
